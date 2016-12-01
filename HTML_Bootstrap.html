@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML</title>
+	<!-- W3 CSS -->
+	<link rel="stylesheet" href="W3CSS/w3.css">
+	<link rel="stylesheet" href="W3CSS/w3-theme-teal.css">
+	<link rel="stylesheet" href="W3CSS/w3-theme-blue-grey.css">
+	<link rel="stylesheet" href="W3CSS/w3-theme-amber.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+	<!-- JQuery Script -->
+	<script src="Bootstrap/js/jquery.min.js"></script>
+	<script src="Bootstrap/js/bootstrap.min.js"></script>
+
+	<style>
+		.carousel-inner > .item > img,
+		.carousel-inner > .item > a > img {
+			width: 40%;
+			margin: auto;
+		}
+	</style>
+</head>
+<body class="container-fluid" style="background-color: lightblue">
+
+	<!-- Navigation Bar -->
+
+	<div class="container" style="margin-top: 15px;">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#"> Genti's Web Page</a>
+				</div>
+
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a class="glyphicon glyphicon-home" href="#"> Home</a></li>
+						<li>
+							<a class="glyphicon glyphicon-cutlery" href="#"> Food</a></li>
+
+							<!-- Dropdown Bar for Excersize section -->	
+
+							<li class="dropdown-open">
+								<a class="glyphicon glyphicon-briefcase dropdown-toggle" data-toggle="dropdown" role="button" 
+								aria-haspopup="true" aria-expanded="true"> 
+								Exersize & Training
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li style="margin:0 7px;"> Full Body -training
+								</li>
+								<li style="margin:0 7px;"> Intervall - Crossfit
+								</li>
+								<li style="margin:0 7px;"> Chars-set- Fixed training
+								</li>
+								<li style="margin:0 7px;"> Bodyfit - training layout
+								</li>
+								<li style="margin:0 7px;"> Body Mass -Bodybuilding
+								</li>
+							</ul>
+						</li>
+
+						<!-- Dropdown Bar for Home section -->
+
+						<li class="dropdown-open">
+							<a class="glyphicon glyphicon-heart-empty dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+								Health
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li style="margin-left: 7px;"> Sleeping
+								</li>
+								<li style="margin-left: 7px;"> Eating
+								</li> 
+								<li role="separator" class="divider">
+								</li>
+								<li style="margin-left: 7px;color: #483D8B">
+								--- <strong>Motivation</strong> ---
+								</li> 
+								<li style="margin-left: 7px;"> Activity
+								</li> 
+								<li style="margin-left: 7px;"> Creativity
+								</li>  
+							</ul>
+						</li>
+					</ul>
+
+					<!-- Image profile-avatar section - On the right -->
+
+					<li class="w3-navitem w3-right w3-hide-small"><img class="w3-circle" src="Bilder/Cars/img_car.jpg" style="height:35px;">
+					</li>
+					<!-- Right navigation Bar -->
+
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<!-- Jumbotron kolumner -->
+
+		<div class="container-fluid" style="margin-top:38px;">
+			<div class="jumbotron row" style="background-color: orange;border: 10px double lightgray;">
+
+				<div class="col-sm-3" style="background-color:lavender;border-left: 5px solid brown;border-right: 15px solid brown;border-radius: 25px; ">
+					<img src="Bilder/Cars/img_rr_03.jpg" alt="" class="img-responsive w3-image img-thumbnail w3-hover-sepia" style="width:100%">
+					<h3>Experience</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris..</p>
+				</div>
+
+				<div class="col-sm-3" style="background-color:lightblue;border-left: 5px solid gray;border-right: 15px solid gray;border-radius: 25px;">
+					<img src="Bilder/img_flower2.jpg" alt="" class="img-responsive w3-image img-circle w3-hover-sepia" style="width:100%">
+					<h3>Health</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris..</p>
+				</div>
+
+				<div class="col-sm-3" style="background-color:greenyellow;border-left: 5px solid purple;border-right: 15px solid purple;border-radius: 25px;">
+					<img src="Bilder/nock.jpg" alt="" class="img-responsive w3-image img-rounded w3-hover-sepia" style="width:100%">
+					<h3>Activity</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris..</p>
+				</div>
+
+				<div class="col-sm-3" style="background-color:coral;border-left: 5px solid lavender;border-right: 15px solid lavender;border-radius: 25px;">
+					<img src="Bilder/img_fjords.jpg" alt="" class="img-responsive w3-image img-thumbnail w3-grayscale-min w3-round-jumbo w3-hover-grayscale" style="width:100%">
+					<h3>Lifestyle</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris..</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Breadcrumbs Header -->
+
+		<div class="container">
+			<h2>Complete your registration today!</h2>
+			<p>Our vision is to create you an opportinity to get the best choises for your own lifestyle and spare you time and money while you get what you need and want in training and excersizes;</p>
+
+			<!-- Breadcrumbs List with Tooltips -->
+
+			<ol class="breadcrumb list-inline">
+				<li><a class="glyphicon glyphicon-eye-open" href="#" data-toggle="tooltip" title="Take you Home"> Plan</a></li>
+				<li><a class="glyphicon glyphicon-wrench" href="#" data-toggle="tooltip" title="Train & motivation page"> Training</a></li>
+				<li><a class="glyphicon glyphicon-picture" href="#" data-toggle="tooltip" title="Place for pictures"> Pictures</a></li>
+				<li><a class="glyphicon glyphicon-star" href="Contact_Us.html" target="_blank" data-toggle="tooltip" title="Read about us"> About us</a></li>
+				<li><a class="glyphicon glyphicon-globe" href="#" data-toggle="tooltip" title="Use Google Maps to find our location"> Find Us</a></li>
+			</ol>
+
+		</div>
+
+		<!-- Collapse(Accordion) Panel -->
+
+		<div class="container" style="border: 7px double #00BFFF;border-radius:10%;margin-bottom: 13px;background-color:#7FFFD4; color:#2F4F4F">
+			<h2 class="w3-animate-zoom"><strong>Join us!</strong></h2>
+			<h3>Plan your Excersize with experts!</h3>
+			<p>Click on the panel to read about our program and add your own program today.</p>
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" href="#collapse1" style="color: #483D8B"><strong>Program panel</strong></a>
+						</h4>
+					</div>
+					<div id="collapse1" class="panel-collapse collapse list-group">
+						<div class="panel-body">Training Section</div>
+						<div class="panel-body">Motivation Section</div>
+						<div class="panel-body">Planing Section</div>
+						<div class="panel-body">Write about us Section</div>
+						<div class="panel-footer">Contact us at 1800-556-321</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Jumbotron Header -->
+
+		<div class="jumbotron" style="border-top:7px solid grey; border-bottom: 7px solid grey; border-left: 7px double gray;border-right: 7px double gray;">
+			<div class="container-fluid">
+				<h1 class="w3-animate-right">Gentrit's Training Tutorial</h1>
+				<p class="w3-animate-left">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.
+					It includes a large callout called a jumbotron and three supporting pieces of content.</p>
+					<p class="w3-animate-right"><button class="btn btn-primary btn-lg href="#" role="button">Learn More &raquo;</button></p>
+				</div>
+			</div>
+
+			<!-- Carousel -->
+
+			<div class="container-fluid">
+				<br>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+
+					<!-- Indicators -->
+
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+
+					<div class="carousel-inner" role="listbox">
+
+						<div class="item active">
+							<img src="Bilder/img_chania.jpg" alt="Chania" width="460" height="345">
+							<div class="carousel-caption">
+								<h3>Chania</h3>
+								<p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="Bilder/img_chania2.jpg" alt="Chania" width="460" height="345">
+							<div class="carousel-caption">
+								<h3>Chania</h3>
+								<p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="Bilder/img_flower.jpg" alt="Flower" width="460" height="345">
+							<div class="carousel-caption">
+								<h3>Flowers</h3>
+								<p>Beatiful flowers in Kolymbari, Crete.</p>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="Bilder/img_flower2.jpg" alt="Flower" width="460" height="345">
+							<div class="carousel-caption">
+								<h3>Flowers</h3>
+								<p>Beatiful flowers in Kolymbari, Crete.</p>
+							</div>
+						</div>
+
+					</div>
+					
+					<!-- Left controls -->
+					
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<!-- right controls -->
+					
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+					
+				</div>
+			</div>
+			<hr>
+
+			<!-- Footer -->
+
+			<div class="container">
+				<footer class="well well-sm" style="padding-top: 18px; background-color: aqua; color: brown; font-weight: bold; ">
+
+					<p class="text-center">&copy; made @ Gentrit Sahiti 2016</p>
+				</footer>
+			</div>
+		</body>
+		</html>
