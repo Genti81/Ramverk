@@ -1,0 +1,10 @@
+
+footer {
+    margin-top: 500px;
+    text-align: center;
+}
+
+.footer.links {
+    float: left;
+    display: block;
+} 
