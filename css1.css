@@ -1,11 +1,11 @@
 
-.jumo-image-1, .jumbo-image-2 {
+.jumbo-image-1, .jumbo-image-2 {
     color: silver; 
     margin-top: 20px;
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.jumo-image-1 {
+.jumbo-image-1 {
     background-image: url("Bilder/hotel.jpg");
 }
 .jumbo-image-2 {
