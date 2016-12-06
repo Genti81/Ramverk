@@ -11,76 +11,70 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
 
-    <!-- W3 CSS 
-    <link rel="stylesheet" type="text/css" href="css1.css"> -->
+    <!-- W3 CSS -->
+    <link rel="stylesheet" type="text/css" href="css1.css"> 
 
      <!-- JQuery Script -->
     <script src="Font-Awesome/9f1b3689ed.js"></script>
 
 <style>
-.jumbotron  {
-    background-image: url("Bilder/hotel.jpg");
-    color: silver; 
-    margin-top: 20px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
 </style>
 
 </head>
 <body>
 
-    <!-- Navigation Bar -->
+<!-- Navigation Bar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+  
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ComputerShop Inc</a>
+    </div>
 
-    <div class="container" style="margin-top: 15px;">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-       <div class="container-fluid">
-        <div class="navbar-header">
-         <a class="navbar-brand" href="#"> ComputerShop Inc</a>
-     </div>
-
-     <ul class="nav navbar-nav nav-tabs">
-
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
          <li><a class="glyphicon glyphicon-home" href="#"> Home</a></li>
 
          <li><a class="glyphicon glyphicon-shopping-cart" href="#"> Products</a></li>
 
          <li><a class="glyphicon glyphicon-user" href="#"> Customer</a></li>
 
-         <li><a class="	glyphicon glyphicon-earphone" href="#"> Contact</a></li>
+         <li><a class=" glyphicon glyphicon-earphone" href="#"> Contact</a></li>
 
          <li><a class="glyphicon glyphicon-heart-empty" href="#"> About</a></li>
-     </ul>
+        
+      </ul>
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+      
+    </div><!-- /.navbar-collapse -->
+</nav>  
 
-     <!-- Right navigation Bar End -->
-
-     <ul class="nav navbar-nav navbar-right">
-   <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-</ul>
- <form class="navbar-form navbar-right">
-          <div class="form-group">
-           <input type="text" class="form-control" placeholder="Search">
-       </div>
-       <button type="submit" class="btn btn-info">Sök</button>
-   </form>
-
-</div>
-</nav>
-</div>
-
-<div class="container-fluid" style="background-color: darkblue;border-top:7px solid grey; border-bottom: 7px solid grey; border-left: 7px double gray;border-right: 7px double gray;">
+      <div class="container">
 
 <!-- Title -->
-<div class="row w3-align-center w3-center" style="margin-top: 2em;">
 
-<div class="col-lg-12">
-    <h3 class="w3-btn" style="border-radius: 15px; background-color: brown">Produkter</h3>
+<div class="row w3-align-center w3-center pageContent">
+<div class="col-lg-12 col-sm-6">
+    <h3 class="w3-btn" style="border-radius: 15px; background-color: brown">Senaste Produkter</h3>
 </div>
 </div>
 
 <div class="row text-center">
 
-    <div class="col-md-2 col-sm-6 hero-feature">
+    <div class="col-md-2 col-md-offset-1 col-sm-6 hero-feature">
         <div class="thumbnail">
             <img src="http://placehold.it/800x500" alt="">
             <div class="caption">
@@ -169,7 +163,6 @@
 </footer>   
 
 </div>
-
     <!-- JQuery Script -->
     <script src="Bootstrap/js/jquery.min.js"></script>
     <script src="Bootstrap/js/bootstrap.min.js"></script>
