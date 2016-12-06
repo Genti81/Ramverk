@@ -1,0 +1,17 @@
+﻿.h2-datorer{
+    color: darkblue;
+    font-size: 55px;
+    text-align: center;
+}
+.p-text {
+    color: darkblue;
+}
+.box{
+    background: white;
+    padding: 0px;
+    width: 300px;
+    text-align: center;
+   display: inline-block;
+   margin-left: 35px;
+   
+}
