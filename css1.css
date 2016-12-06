@@ -1,17 +1,36 @@
 
-/*FOOTER EGENSKAPER*/
-
+ /*FOOTER EGENSKAPER*/
+/*
 footer {
     position:absolute;
     text-align: center;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
     width: 100%;
-}
+}*/
 
 /*FOOTERNS LÄNKARNAS EGENSKAPER*/
-
+/*
 .footer.links {
     float: left;
     display: block;
-} 
+} */
+
+.jumbotron  {
+    background-image: url("Bilder/hotel.jpg");
+    color: silver; 
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container-fluid {
+
+	background-color: darkblue;
+	border-top:7px solid grey; 
+	border-bottom: 7px solid grey; 
+	border-left: 7px double gray;
+	border-right: 7px double gray;
+}
+
+
