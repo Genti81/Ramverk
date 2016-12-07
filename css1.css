@@ -11,6 +11,7 @@
 }
 
 /* Bild till Index.html */
+
 .image-1 {
 
 	font-family: Roboto;
@@ -20,7 +21,7 @@
 	border-bottom: 7px ridge lightcyan;
 	border-left: 2px double sandybrown;
 	border-right: 2px double sandybrown;
-	border-radius: 30px;
+	border-radius: 40px;
 
 }
 
