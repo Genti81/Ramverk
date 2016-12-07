@@ -6,7 +6,10 @@
 }
 .jumbo-image-1 {
     background-image: url("Bilder/Background/images7.jpg");
-    border: 10px ridge aqua;
+    border-top: 10px ridge aqua;
+    border-bottom: 10px ridge aqua;
+    border-left: 15px ridge cyan;
+    border-right: 15px ridge cyan;
     border-radius: 25px;
 }
 .jumbo-image-2 {
