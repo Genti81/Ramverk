@@ -1,15 +1,33 @@
 
-.jumbo-image-1, .jumbo-image-2 {
-    color: silver; 
-    margin-top: 20px;
+.jumbo-image-1, .jumbo-image-2, .footer-image {
+    color: black; 
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .jumbo-image-1 {
-    background-image: url("Bilder/hotel.jpg");
+    background-image: url("Bilder/Background/bubble.jpg");
 }
 .jumbo-image-2 {
-    background-image: url("Bilder/hotel.jpg");
+}
+
+/* Bild till Index.html */
+.image-1 {
+
+	font-family: Roboto;
+	font-weight: bold;
+	color:  rosybrown;
+	border-top:7px ridge lightcyan;
+	border-bottom: 7px ridge lightcyan;
+	border-left: 2px double sandybrown;
+	border-right: 2px double sandybrown;
+	border-radius: 30px;
+
+}
+
+.footer-image {
+	background-image: url("Bilder/Logo/sword-wallpapers.jpg");
+	color: white;
+
 }
 
 

@@ -1,16 +1,13 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Contact</title>
-	<!-- W3 CSS -->
-	<link rel="stylesheet" href="W3CSS/w3.css">
-	<link rel="stylesheet" href="Font-Awesome/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
     <!-- W3 CSS -->
     <link rel="stylesheet" href="W3CSS/w3.css">
-
-    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Font-Awesome/css/font-awesome.min.css">
+<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
 
     <!-- W3 CSS -->
@@ -18,51 +15,66 @@
 
     <!-- JQuery Script -->
     <script src="Font-Awesome/9f1b3689ed.js"></script>
+
+     <style>
+     
+        body{
+            background: url("Bilder/Background/HD-Perfect.jpg");
+            
+        }
+          .w3-container {
+            background: url("Bilder/Background/Bubble.jpg");
+           
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
+<!-- Navigation Bar -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
 
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">ComputerShop Inc</a>
-            </div>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">ComputerShop Inc</a>
+      </div>
 
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+         <li><a class="glyphicon glyphicon-home" href="Home.html"> Home</a></li>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a class="glyphicon glyphicon-home" href="Home.html"> Home</a></li>
+         <li><a class="glyphicon glyphicon-shopping-cart" href="Produkt.html"> Products</a></li>
 
-                    <li><a class="glyphicon glyphicon-shopping-cart" href="Products.html"> Products</a></li>
+         <li><a class="glyphicon glyphicon-user" href="Customer.html"> Customer</a></li>
 
-                    <li><a class="glyphicon glyphicon-user" href="Customer.html"> Customer</a></li>
+         <li><a class=" glyphicon glyphicon-earphone" href="Contact_Us.html"> Contact</a></li>
 
-                    <li><a class=" glyphicon glyphicon-earphone" href="Contact_Us.html"> Contact</a></li>
+         <li><a class="glyphicon glyphicon-heart-empty" href="About.html"> About</a></li>
+       </ul>
 
-                    <li><a class="glyphicon glyphicon-heart-empty" href="About.html"> About</a></li>
-
-                </ul>
-                <form class="navbar-form navbar-right">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-info">Submit</button>
-                </form>
-
-            </div><!-- /.navbar-collapse -->
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
         </div>
-    </nav> 
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="glyphicon glyphicon-picture " href="Gallery.html"> Gallery</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav> 
 
-<form action="form.asp" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+<div class="container">
+    
+<form action="form.asp" class="w3-container w3-card-4 w3-light-grey w3-text-black w3-margin">
 <h2 class="w3-center">Contact Us</h2>
  
 <div class="w3-row w3-section">
@@ -79,8 +91,7 @@
     </div>
 </div>
 
-<hr>
-<div class="container">
+<div class="w3-row w3-section">
   <p>Coose if you are male or female:</p>
     <div class="radio">
       <label><input type="radio" name="optradio">Male</label>
@@ -88,10 +99,11 @@
     <div class="radio">
       <label><input type="radio" name="optradio">Female</label>
     </div>
-</div>
-<p class="w3-center">
+
+<p class="w3-left">
 <button class="w3-btn w3-section w3-blue w3-ripple"> Accept </button>
 </p>
+</div>
 
 <div class="w3-row w3-section">
   <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
@@ -114,11 +126,43 @@
     </div>
 </div>
 
-<p class="w3-left">
+<p class="w3-center">
 <button class="w3-btn w3-section w3-light-green w3-ripple"> Send </button>
 </p>
+
 </form>
 
+<!-- Footer start -->
+<footer class="w3-card-12 well well-sm text-center footer-image" style="color: white">
+    <a href="Home.html">Home</a>
+    <a href="Products.html">Products</a>
+    <a href="About.html">About</a>
+    <a href="Contact.html">Contact</a>
+    <a href="Customer.html">Customer</a>
+    <p class="text-center">Copyright <span class="glyphicon glyphicon-copyright-mark">2016</span></p>
+
+    <!-- Facebook, Twitter och Google+ knappar-->
+    <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+    <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+    <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+    <!-- Vad sägs om en länk till LinkedIn också? -->
+    <a href="#"><i class="fa fa-linkedin-plus fa-2x"></i></a>
+    <p>&nbsp;</p>
+    <form class="form-horizontal">
+        <div class="form-group">
+      <label class="control-label col-sm-2 col-sm-offset-2" for="email">E-mail:</label>
+      <div class="col-sm-4">
+        <input type="email" class="form-control" id="email" placeholder="Enter your email adress">
+    </div>
+        <button type="submit" class="btn btn-default navbar-left">Submit</button>
+    </form>
+</footer>  
+
+</div>
+
+<!-- JQuery Script -->
+    <script src="Bootstrap/js/jquery.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 </body>
