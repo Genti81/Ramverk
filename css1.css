@@ -29,6 +29,12 @@
 	border-radius: 40px;
 
 }
+/* Border till alla divar som använder class="thumbnail"  */
+
+.thumbnail {
+            border:4px groove gray;
+
+        }
 
 .footer-image {
 	background-image: url("Bilder/Logo/sword-wallpapers.jpg");
