@@ -15,7 +15,7 @@
 
 	font-family: Roboto;
 	font-weight: bold;
-	color:  rosybrown;
+	color:  black;
 	border-top:7px ridge lightcyan;
 	border-bottom: 7px ridge lightcyan;
 	border-left: 2px double sandybrown;
@@ -27,7 +27,6 @@
 .footer-image {
 	background-image: url("Bilder/Logo/sword-wallpapers.jpg");
 	color: white;
-
 }
 
 .link1 {
