@@ -85,8 +85,34 @@
         <div class="box">
             <h1 class="w3-animate-right image-1 w3-circle text-center imageName">Ninja Inc</h1>
             <a href="Produkt.html" target="_blank">
-                <img src="Bilder/Logo/ninja-gaiden.jpg" class="img-circle imgBild" alt="Cinque Terre" style="border: 10px double gray;width:70%;">
+                <img src="Bilder/Logo/ninja-gaiden.jpg" class="img-circle imgBild" alt="Cinque Terre" style="border: 10px double gray;width:70%;"></a>
         </div>
+
+        <div class="w3-content w3-section" style="max-width:500px">
+            <p>Vårt fina cillection </p>
+
+            <img class="mySlides w3-animate-fading img-thumbnail w3-circle" src="Bilder/Datorer/Asus.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading img-thumbnail w3-jumbo" src="Bilder/Datorer/Taurus-Ultra.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading img-thumbnail w3-round" src="Bilder/Datorer/d2.jpg" style="width:100%">
+            <img class="mySlides w3-animate-fading img-thumbnail w3-circle" src="Bilder/Datorer/d2.jpg" style="width:100%">
+        </div>
+
+        <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+        </script>
 
         <footer class="well well-sm text-center footer-image">
             <a href="Home.html"> Home</a>
@@ -111,6 +137,7 @@
                         <input type="email" class="form-control" id="email" placeholder="Enter your email adress">
                     </div>
                     <button type="submit" class="btn btn-default navbar-left">Submit</button>
+                </div>
             </form>
         </footer>
     </div>
