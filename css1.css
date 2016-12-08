@@ -45,6 +45,7 @@
 .link1 {
     color: white;
 }
+  /* Bakgrundsskugga till alla Boxar med class="imgBild" */
 
 .imgBild {
             -webkit-box-shadow: 0px 0px 100px 13px silver;
